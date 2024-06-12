@@ -1,0 +1,44 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.box-game {
+  border-radius: 5px;
+  width: 20%;
+  background-color: #11111D;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-inline: 50px;
+  padding-block: 20px;
+  border: 1px #feae00a0 solid;
+  box-shadow: rgb(0, 0, 0) 0px 18px 50px -10px;
+}
+
+.box-game button {
+  background-color: #FEAC00;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 50%;
+  align-self: center;
+  transition: 200ms ease-in-out;
+}
+
+.box-game button:hover {
+  background-color: #ffb30093;
+}
+
+.box-game img {
+  width: 50px;
+  margin: 0 auto;
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+
+.box-game h2 {
+  margin-top: -10px;
+}
